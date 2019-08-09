@@ -1,0 +1,37 @@
+$white: #fff;
+$primary: #6699ff;
+$green: #78c23a;
+$yellow: #e6a23c;
+$pale-yellow: #fff9e5;
+$red: #f56c6c;
+$gray: #909399;
+$light-gray: #f1f6f8;
+$dark-blue: #005172;
+$text-gray: #868686;
+$text-dark-gray: #333333;
+$gray-background: #f2f2f2;
+$gray-border: #a2aaad;
+$gray-light: #cccccc;
+$error-red: #d0021b;
+
+
+// spacing
+$spacer: 1rem !default;
+$spacers: (
+        0: 0,
+        1: (
+                $spacer,
+        ),
+        2: (
+                $spacer * 1.5,
+        ),
+        3: (
+                $spacer * 3,
+        ),
+        4: (
+                $spacer * 3.5,
+        ),
+        5: (
+                $spacer * 4,
+        ),
+) !default;
